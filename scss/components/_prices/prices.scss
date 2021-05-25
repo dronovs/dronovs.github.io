@@ -1,0 +1,99 @@
+.prices {
+    background-color: #e7edf3;
+    margin-bottom: 150px;
+    padding: 150px 0;
+}
+.prices-text {
+    h2 {
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+    p {
+        text-align: center;
+    }
+}
+.prices-cards {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .card {
+        text-align: center;
+        .card-body {
+            color: #89939c;
+            .card-header {
+                background-color: white;
+            }
+            .card-title {
+                text-align: center;
+            }
+            .card-price {
+                .actual-price {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    .price-wrapper {
+                        display: flex;
+                    }
+                    .card-dollar {
+                        font-size: 15px;
+                        color: #ffbb42;
+                    }
+                    p {
+                        font-size: 25px;
+                        color: #ffbb42;
+                        margin: 0;
+                    }
+                    .anuitity {
+                        color: #89939c;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .card-btn {
+                background-color: #ffbb42;
+                border: transparent;
+            }
+            
+            .card-text-custome {
+                margin: 0;
+                font-size: 12px;
+                border-bottom: 1px solid #e2e9f0;
+            }
+            p {
+                font-size: 12px;
+                padding: 10px 0;
+            }
+        }
+        
+    }
+    
+}
+.prices-cards .card .card-body .card-price .actual-price .anuitity {
+    padding: 0;
+}
+.card:hover {
+    background-color: #709dca;
+    color: white;
+    transform: scale(1.1);
+    .card-body {
+        color: white;
+    .card-header {
+        color: white;
+        background-color: #709dca;
+        border-bottom: white;
+        .actual-price {
+            .card-dollar {
+                color: white;
+            }
+            p {
+                color: white;
+            }
+            .anuitity {
+                color: white;
+            }
+        }
+    }
+}
+}

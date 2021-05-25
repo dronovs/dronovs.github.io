@@ -1,0 +1,18 @@
+.menu-wrapper {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-expand-lg .navbar-nav .menu-link {
+    color: #aeaeae;
+}
+.navbar-expand-lg .navbar-nav .menu-link:not(:last-child) {
+    padding-right: 20px;
+}
+.navbar-expand-lg .navbar-nav .menu-link:hover {
+    background-color: #ffbb42;
+    color: #ffffff;
+    border-radius: 5px;
+}

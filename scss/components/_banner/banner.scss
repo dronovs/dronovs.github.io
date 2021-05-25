@@ -1,0 +1,85 @@
+.banner {
+    background-color: #709dca;
+    padding-top: 110px;
+    height: 590px;
+    position: relative;
+    margin-bottom: 200px;
+}
+.banner-wrapper {
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.banner h1, .banner p {
+    color: white;
+    text-align: center;
+}
+.banner p {
+    margin-bottom: 40px;
+}
+.input-name {
+    background-image: url(../images/banner/user.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position: 15px;
+    padding-left: 40px;
+}
+
+.input-email {
+    background-image: url(../images/banner/email.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position: 15px;
+    padding-left: 40px;
+}
+
+.input-phone {
+    background-image: url(../images/banner/phone.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position: 15px;
+    padding-left: 40px;
+}
+.banner-button {
+    color: white;
+    width: 100%;
+}
+.banner-laptop {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.laptop-slides {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -2%;
+    width: 100%;
+    max-height: 260px;
+    max-width: 450px;
+}
+.laptop-image {
+    max-height: 270px;
+    max-width: 460px;
+}
+
+
+.banner .carousel-indicators-custom {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -25%;
+}
+.carousel-indicators-options {
+    display: contents;
+}
+.carousel-indicators .slider-indicator {
+    border-color: #e1e2e3;
+    border-radius: 160%;
+    border: 2px solid #e1e2e3;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators .slider-indicator:hover {
+    border-color: #1ca8dd;
+}

@@ -1,0 +1,32 @@
+.about-us {
+    width: 100%;
+    margin-bottom: 130px;
+    .about-us-wrapper {
+        display: flex;
+        img {
+            width: 50%;
+            padding: 0;
+        }
+        .about-right-part {
+            width: 50%;
+            background-color: #ffc155;
+            color: white;
+            padding: 110px 109px 100px 60px;
+            h3 {
+                font-size: 25px;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+            p {
+                font-size: 12px;
+                margin-bottom: 30px;
+            }
+            .about-btn {
+                color: white;
+                border-color: #e7ad48;
+                background-color: #ffc155;
+                padding: 10px 30px;
+            }
+        }
+    }
+}
