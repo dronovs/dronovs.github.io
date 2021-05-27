@@ -8,9 +8,14 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.header-wrapper {
+  background-color: white;
+}
+
 .menu-wrapper {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  background-color: white;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -54,38 +59,43 @@ body {
 }
 
 .input-name {
-  background-image: url(../images/banner/user.png);
+  background-image: url(../images/banner/user.svg);
   background-repeat: no-repeat;
   background-position: center left;
   background-position: 15px;
   padding-left: 40px;
+  border-radius: 2px;
 }
 
 .input-email {
-  background-image: url(../images/banner/email.png);
+  background-image: url(../images/banner/email.svg);
   background-repeat: no-repeat;
   background-position: center left;
   background-position: 15px;
   padding-left: 40px;
+  border-radius: 2px;
 }
 
 .input-phone {
-  background-image: url(../images/banner/phone.png);
+  background-image: url(../images/banner/phone.svg);
   background-repeat: no-repeat;
   background-position: center left;
   background-position: 15px;
   padding-left: 40px;
+  border-radius: 2px;
 }
 
 .banner-button {
   color: white;
-  width: 100%;
+  border-radius: 2px;
 }
 
 .banner-laptop {
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
+  width: 35%;
+  max-width: 650px;
 }
 
 .laptop-slides {
@@ -99,19 +109,19 @@ body {
 }
 
 .laptop-image {
-  max-height: 270px;
-  max-width: 460px;
+  height: 100%;
+  width: 100%;
 }
 
 .banner .carousel-indicators-custom {
   position: absolute;
-  transform: translateX(-50%);
-  left: 50%;
-  bottom: -25%;
+  transform: translateY(-85%);
 }
 
 .carousel-indicators-options {
-  display: contents;
+  position: initial;
+  margin: 0 auto;
+  transform: translateY(50px);
 }
 
 .carousel-indicators .slider-indicator {
@@ -126,47 +136,42 @@ body {
   border-color: #1ca8dd;
 }
 
-.services {
-  margin-bottom: 100px;
-}
-
 .services-header h2 {
-  text-align: center;
+  font-size: 25px;
   font-weight: 800;
+  text-align: center;
   text-transform: uppercase;
 }
 .services-header p {
+  font-size: 15px;
   text-align: center;
-  margin-bottom: 90px;
 }
 
-.services-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.services .service {
+  text-align: left;
 }
-.services-wrapper .service {
-  width: 48%;
-  display: flex;
-  padding: 0 0px 75px 0;
-}
-.services-wrapper .service img {
-  width: 50px;
-  height: 50px;
-  margin-right: 35px;
-}
-.services-wrapper .service .service-text h3 {
+.services .service h3 {
   font-size: 20px;
   font-weight: 600;
+  text-transform: uppercase;
 }
-.services-wrapper .service .service-text p {
-  color: #7b7b7b;
+.services .service img {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+}
+.services .service .service-text p {
   font-size: 15px;
+}
+
+.services-wrapper .service-last img {
+  margin-right: 50px;
 }
 
 .about-us {
   width: 100%;
-  margin-bottom: 130px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .about-us .about-us-wrapper {
   display: flex;
@@ -175,11 +180,16 @@ body {
   width: 50%;
   padding: 0;
 }
+.about-us .about-us-wrapper .about-left-part {
+  background-image: url(../images/about/about-img.png);
+  background-size: cover;
+  display: flex;
+}
 .about-us .about-us-wrapper .about-right-part {
   width: 50%;
   background-color: #ffc155;
   color: white;
-  padding: 110px 109px 100px 60px;
+  padding: 150px 300px 140px 80px;
 }
 .about-us .about-us-wrapper .about-right-part h3 {
   font-size: 25px;
@@ -195,6 +205,7 @@ body {
   border-color: #e7ad48;
   background-color: #ffc155;
   padding: 10px 30px;
+  border-radius: 2px;
 }
 
 .prices {
@@ -207,8 +218,9 @@ body {
   margin-bottom: 65px;
 }
 .prices-text h2 {
-  text-align: center;
+  font-size: 25px;
   font-weight: 800;
+  text-align: center;
   text-transform: uppercase;
 }
 .prices-text p {
@@ -220,50 +232,51 @@ body {
   justify-content: center;
   position: relative;
 }
-.prices-cards .card {
+.prices-cards .card-hover {
   text-align: center;
 }
-.prices-cards .card .card-body {
+.prices-cards .card-hover .card-body {
   color: #89939c;
 }
-.prices-cards .card .card-body .card-header {
+.prices-cards .card-hover .card-body .card-header {
   background-color: white;
 }
-.prices-cards .card .card-body .card-title {
+.prices-cards .card-hover .card-body .card-title {
   text-align: center;
 }
-.prices-cards .card .card-body .card-price .actual-price {
+.prices-cards .card-hover .card-body .card-price .actual-price {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.prices-cards .card .card-body .card-price .actual-price .price-wrapper {
+.prices-cards .card-hover .card-body .card-price .actual-price .price-wrapper {
   display: flex;
 }
-.prices-cards .card .card-body .card-price .actual-price .card-dollar {
+.prices-cards .card-hover .card-body .card-price .actual-price .card-dollar {
   font-size: 15px;
   color: #ffbb42;
 }
-.prices-cards .card .card-body .card-price .actual-price p {
+.prices-cards .card-hover .card-body .card-price .actual-price p {
   font-size: 25px;
   color: #ffbb42;
   margin: 0;
 }
-.prices-cards .card .card-body .card-price .actual-price .anuitity {
+.prices-cards .card-hover .card-body .card-price .actual-price .anuitity {
   color: #89939c;
   font-size: 12px;
 }
-.prices-cards .card .card-body .card-btn {
+.prices-cards .card-hover .card-body .card-btn {
   background-color: #ffbb42;
   border: transparent;
+  border-radius: 2px;
 }
-.prices-cards .card .card-body .card-text-custome {
+.prices-cards .card-hover .card-body .card-text-custome {
   margin: 0;
   font-size: 12px;
   border-bottom: 1px solid #e2e9f0;
 }
-.prices-cards .card .card-body p {
+.prices-cards .card-hover .card-body p {
   font-size: 12px;
   padding: 10px 0;
 }
@@ -272,49 +285,79 @@ body {
   padding: 0;
 }
 
-.card:hover {
+.card-hover:hover {
   background-color: #709dca;
   color: white;
   transform: scale(1.1);
   z-index: 1;
+  transition: 0.3s;
 }
-.card:hover .card-body {
+.card-hover:hover .card-body {
   color: white;
 }
-.card:hover .card-body .card-header {
+.card-hover:hover .card-body .card-header {
   color: white;
   background-color: #709dca;
   border-bottom: 1px white solid;
 }
-.card:hover .card-body .card-header .actual-price .card-dollar {
+.card-hover:hover .card-body .card-header .actual-price .card-dollar {
   color: white;
 }
-.card:hover .card-body .card-header .actual-price p {
+.card-hover:hover .card-body .card-header .actual-price p {
   color: white;
 }
-.card:hover .card-body .card-header .actual-price .anuitity {
+.card-hover:hover .card-body .card-header .actual-price .anuitity {
   color: white;
 }
 
-.how-it-works {
-  margin-bottom: 150px;
+.hiw-header {
+  text-align: center;
+  margin-bottom: 80px;
 }
-.how-it-works .hiw-wrapper {
-  display: flex;
-  justify-content: center;
+.hiw-header h2 {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
 }
-.how-it-works .hiw-wrapper img {
-  width: 90%;
+
+.hiw-wrapper {
+  position: relative;
 }
-.how-it-works .hiw-wrapper .how-it-works-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.hiw-wrapper .arrows {
+  position: absolute;
+  width: 12%;
+  transform: translateX(-25%);
 }
-.how-it-works .hiw-wrapper .how-it-works-wrapper div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.hiw-wrapper .lower-arrow {
+  top: 65px;
+  transform: translateX(-30%);
+}
+
+.hiw-item {
+  text-align: center;
+}
+.hiw-item img {
+  height: 50px;
+  width: 55px;
+  margin-bottom: 80px;
+}
+.hiw-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.hiw-item p {
+  font-size: 12px;
+  color: #7b7b7b;
+  margin: 0 0 80px 0;
+}
+
+.hiw-btn {
+  border-radius: 2px;
+  color: white;
+  padding: 10px 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

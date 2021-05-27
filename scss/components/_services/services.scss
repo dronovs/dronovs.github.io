@@ -1,40 +1,40 @@
-.services {
-    margin-bottom: 100px;
-}
+
 .services-header {
     h2 {
-        text-align: center;
+        font-size: 25px;
         font-weight: 800;
+        text-align: center;
         text-transform: uppercase;
     }
     p {
+        font-size: 15px;
         text-align: center;
-        margin-bottom: 90px;
+    }
+
+}
+.services .service {
+    text-align: left  ;
+    h3{
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+        margin-right: 30px;
+    }
+    
+    .service-text {
+        p {
+            font-size: 15px;
+        }
     }
 }
 .services-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    .service {
-        width: 48%;
-        display: flex;
-        padding: 0 0px 75px 0;
+    .service-last {
         img {
-            width: 50px;
-            height: 50px;
-            margin-right: 35px;
-        }
-        .service-text {
-          
-            h3 {
-                font-size: 20px;
-                font-weight: 600;
-            }
-            p {
-                color: #7b7b7b;
-                font-size: 15px;
-            }
+            margin-right: 50px;
         }
     }
 }

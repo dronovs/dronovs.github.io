@@ -6,9 +6,10 @@
 .prices-text {
     margin-bottom: 65px;
     h2 {
-    text-align: center;
-    font-weight: 800;
-    text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
 }
     p {
         text-align: center;
@@ -18,7 +19,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    .card {
+    .card-hover {
         text-align: center;
         .card-body {
             color: #89939c;
@@ -55,6 +56,7 @@
             .card-btn {
                 background-color: #ffbb42;
                 border: transparent;
+                border-radius: 2px;
             }
             
             .card-text-custome {
@@ -74,11 +76,12 @@
 .prices-cards .card .card-body .card-price .actual-price .anuitity {
     padding: 0;
 }
-.card:hover {
+.card-hover:hover {
     background-color: #709dca;
     color: white;
     transform: scale(1.1);
     z-index: 1;
+    transition: 0.3s;
     .card-body {
         color: white;
     .card-header {

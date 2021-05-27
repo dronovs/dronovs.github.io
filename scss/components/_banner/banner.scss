@@ -17,36 +17,41 @@
     margin-bottom: 40px;
 }
 .input-name {
-    background-image: url(../images/banner/user.png);
+    background-image: url(../images/banner/user.svg);
     background-repeat: no-repeat;
     background-position: center left;
     background-position: 15px;
     padding-left: 40px;
+    border-radius: 2px;
 }
 
 .input-email {
-    background-image: url(../images/banner/email.png);
+    background-image: url(../images/banner/email.svg);
     background-repeat: no-repeat;
     background-position: center left;
     background-position: 15px;
     padding-left: 40px;
+    border-radius: 2px;
 }
 
 .input-phone {
-    background-image: url(../images/banner/phone.png);
+    background-image: url(../images/banner/phone.svg);
     background-repeat: no-repeat;
     background-position: center left;
     background-position: 15px;
     padding-left: 40px;
+    border-radius: 2px;
 }
 .banner-button {
     color: white;
-    width: 100%;
+    border-radius: 2px;
 }
 .banner-laptop {
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
+    width: 35%;
+    max-width: 650px;
 }
 .laptop-slides {
     position: absolute;
@@ -58,19 +63,19 @@
     max-width: 450px;
 }
 .laptop-image {
-    max-height: 270px;
-    max-width: 460px;
+    height: 100%;
+    width: 100%;
 }
 
 
 .banner .carousel-indicators-custom {
     position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    bottom: -25%;
+    transform: translateY(-85%);
 }
 .carousel-indicators-options {
-    display: contents;
+    position: initial ;
+    margin: 0 auto;
+    transform: translateY(50px);
 }
 .carousel-indicators .slider-indicator {
     border-color: #e1e2e3;
