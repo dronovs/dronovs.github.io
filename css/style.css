@@ -86,8 +86,9 @@ body {
 }
 
 .banner-button {
-  color: white;
   border-radius: 2px;
+  color: white;
+  padding: 6px 25px;
 }
 
 .banner-laptop {
@@ -310,6 +311,10 @@ body {
   color: white;
 }
 
+.how-it-works {
+  margin-bottom: 150px;
+}
+
 .hiw-header {
   text-align: center;
   margin-bottom: 80px;
@@ -358,6 +363,157 @@ body {
   border-radius: 2px;
   color: white;
   padding: 10px 25px;
+}
+
+.happy-clients {
+  background-color: #ffc155;
+  margin-bottom: 150px;
+  padding: 130px 0;
+}
+
+.happy-clients-header {
+  text-align: center;
+  margin-bottom: 60px;
+  color: white;
+}
+.happy-clients-header h2 {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+.happy-clients-header p {
+  font-size: 15px;
+}
+
+.happy-clients-item {
+  background-color: white;
+  padding: 30px 30px 30px 20px;
+}
+.happy-clients-item img {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.happy-clients-text {
+  font-size: 12px;
+}
+.happy-clients-text .happy-clients-user {
+  display: flex;
+}
+.happy-clients-text .happy-clients-user .hc-name {
+  text-transform: uppercase;
+  color: #ffc155;
+}
+.happy-clients-text .happy-clients-user .hc-post {
+  text-transform: uppercase;
+  color: #99a9ae;
+}
+
+.newsletter-header {
+  margin-bottom: 30px;
+}
+.newsletter-header h2 {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+.newsletter-header p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.newsletter-inputs {
+  margin-bottom: 30px;
+}
+
+.newsletter-input-name {
+  background-image: url(../images/newsletter/user.svg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-position: 15px;
+  padding-left: 40px;
+  border-radius: 2px;
+}
+
+.newsletter-input-email {
+  background-image: url(../images/banner/email.svg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-position: 15px;
+  padding-left: 40px;
+  border-radius: 2px;
+}
+
+.newsletter-button {
+  border-radius: 2px;
+  color: white;
+  padding: 6px 25px;
+}
+
+.newsletter-map-wrapper {
+  position: relative;
+  border-bottom: 1px solid #e3e7ec;
+  margin-bottom: 60px;
+  padding: 0 0 40px 0;
+}
+
+.adress-circle {
+  position: absolute;
+  background-color: #394b50;
+  left: 35%;
+  bottom: 47%;
+  border-radius: 50%;
+  max-width: 280px;
+  max-height: 280px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.adress-circle h5 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+.adress-circle p {
+  color: #808b8f;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.adress-circle a {
+  text-decoration: none;
+  color: #ffc155;
+  font-size: 13px;
+}
+.adress-circle .adress-circle-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 25px solid #394b50;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  right: 43%;
+  bottom: -8%;
+}
+
+.newsletter-navifation .newsletter-navbar {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+.newsletter-navifation .newsletter-navbar .newsletter-navbar-wrapper {
+  justify-content: center;
+}
+.newsletter-navifation .newsletter-navbar li a {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */

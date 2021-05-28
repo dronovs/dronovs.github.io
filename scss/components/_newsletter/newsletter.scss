@@ -1,0 +1,99 @@
+.newsletter-header {
+    margin-bottom: 30px;
+    h2{
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+.newsletter-inputs {
+    margin-bottom: 30px;
+}
+.newsletter-input-name {
+    background-image: url(../images/newsletter/user.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position: 15px;
+    padding-left: 40px;
+    border-radius: 2px;
+}
+.newsletter-input-email {
+    background-image: url(../images/banner/email.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position: 15px;
+    padding-left: 40px;
+    border-radius: 2px;
+}
+.newsletter-button {
+    border-radius: 2px;
+    color: white;
+    padding: 6px 25px;
+}
+.newsletter-map-wrapper {
+    position: relative;
+    border-bottom: 1px solid #e3e7ec;
+    margin-bottom: 60px;
+    padding: 0 0 40px 0;
+}
+.adress-circle {
+    h5 {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    p {
+        color: #808b8f;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: #ffc155;
+        font-size: 13px;
+    }
+    position: absolute;
+    background-color: #394b50;
+    left: 35%;
+    bottom: 47%;
+    border-radius: 50%;
+    max-width: 280px;
+    max-height: 280px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .adress-circle-arrow {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 25px solid #394b50;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        right: 43%;
+        bottom: -8%;
+    }
+}
+.newsletter-navifation .newsletter-navbar {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    .newsletter-navbar-wrapper {
+        justify-content: center;
+    }
+    li {
+        a {
+            color: black;
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+}
