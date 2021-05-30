@@ -40,6 +40,9 @@
     border-bottom: 1px solid #e3e7ec;
     margin-bottom: 60px;
     padding: 0 0 40px 0;
+    img {
+        width: 100%;
+    }
 }
 .adress-circle {
     h5 {
@@ -80,20 +83,5 @@
         border-left: 15px solid transparent;
         right: 43%;
         bottom: -8%;
-    }
-}
-.newsletter-navifation .newsletter-navbar {
-    display: flex;
-    background-color: white;
-    justify-content: center;
-    .newsletter-navbar-wrapper {
-        justify-content: center;
-    }
-    li {
-        a {
-            color: black;
-            font-size: 15px;
-            font-weight: 600;
-        }
     }
 }

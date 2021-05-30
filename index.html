@@ -15,29 +15,25 @@
 <div class="header">
     <div class="container">
         <div class="row header-wrapper">
-              <nav class="navbar navbar-expand-lg navbar-light menu-wrapper">
-                  <a href="#">
-                      <img src="images/header/logo.png" alt="">
-                  </a>
-                <div class="container-fluid">
+              <nav class="col col-md-12 align-content-center d-flex justify-content-around flex-wrap navbar navbar-expand-lg navbar-light menu-wrapper">
+                  <a class="navbar-brand" href="#"><img src="images/header/logo.png" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-link menu-link" href="#">HOME</a>
-                      <a class="nav-link menu-link" href="#">SERVICE</a>
-                      <a class="nav-link menu-link" href="#">ABOUT US</a>
-                      <a class="nav-link menu-link" href="#">PRICING TABLE</a>
-                      <a class="nav-link menu-link" href="#">HOW IT WORK</a>
-                      <a class="nav-link menu-link" href="#">HAPPY CLIENTS</a>
-                      <a class="nav-link menu-link" href="#">CONTACT US</a>
+                      <a class="nav-link menu-link menu-item-custom" href="#">HOME</a>
+                      <a class="nav-link menu-link menu-item-custom" href="#">SERVICE</a>
+                      <a class="nav-link menu-link menu-item-custom" href="#">ABOUT US</a>
+                      <a class="nav-link menu-link menu-item-custom" href="#">PRICING TABLE</a>
+                      <a class="nav-link menu-link menu-item-custom" href="#">HOW IT WORK</a>
+                      <a class="nav-link menu-link menu-item-custom" href="#">HAPPY CLIENTS</a>
+                      <a class="nav-link menu-link menu-item-custom" href="#">CONTACT US</a>
                     </div>
                   </div>
-                </div>
               </nav>
         </div>
-    </div>
+    
 </div>
 
 </header>
@@ -45,34 +41,35 @@
 <main>
     <div class="banner">
         <div class="container">
-            <div class="row banner-wrapper d-flex flex-wrap ">
-                <h1>Boost up your Local business</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting</p>
-                <div class="col-3">
-                <div class="input-group mb-3">
+          <div class="row">
+            <h1>Boost up your Local business</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting</p>
+          </div>
+            <div class="row banner-wrapper flex-wrap">
+                <div class="col-3 col-lg-3 col-md-6 col-sm-12  banner-inputs">
+                  <div class="input-group mb-3">
                     <input type="text" class="form-control input-name" placeholder="Full Name" aria-label="Username" aria-describedby="basic-addon1">
                   </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-lg-3 col-md-6 col-sm-12 banner-inputs">
+                  <div class="input-group mb-3">
+                      <input type="text" class="form-control input-email" placeholder="Email Adress" aria-label="Email" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+                <div class="col-3 col-lg-3 col-md-6 col-sm-12 banner-inputs">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control input-email" placeholder="Email Adress" aria-label="Email" aria-describedby="basic-addon1">
+                      <input type="text" class="form-control input-phone" placeholder="Phone Number" aria-label="Phone" aria-describedby="basic-addon1">
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control input-phone" placeholder="Phone Number" aria-label="Phone" aria-describedby="basic-addon1">
-                        </div>
-                </div>
-                <div class="col-3">
-                    <button type="button" class="btn btn-warning banner-button">REQUEST A QUOTE</button>
+                <div class="col-3 banner-btn col-lg-3 col-md-6 col-sm-12 banner-inputs">
+                    <a type="button" class="col-md-12 btn banner-button">REQUEST A QUOTE</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-6">
                     <div>
                     <img class="banner-laptop" src="images/banner/laptop.png" alt="">
-                    <div id="carouselExampleIndicators1" class="carousel slide laptop-slides" data-bs-ride="carousel">
-                      <div id="carouselExampleIndicators" class="carousel slide carousel-indicators-custom" data-bs-ride="carousel">
+                      <div id="carouselExampleIndicators" class="carousel slide laptop-slides" data-bs-ride="carousel">
 
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -113,8 +110,9 @@
                 <h2>Our Services</h2>
                 <p class="mb-5">Lorem Ipsum is simply dummy Business industry.</p>
               </div>
+            </div>  
               <div class="row services-wrapper d-flex justify-content-around flex-wrap">
-              <div class="col-5 d-flex align-self-center service mb-5">
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center service mb-5">
                 <img src="images/services/font-icons.png" alt="">
                 <div class="service-text">
                 <h3>Font-Awesome Icons</h3>
@@ -123,7 +121,7 @@
                   since the 1500s, when an unknown printer.</p>
                 </div>
               </div>
-              <div class="col-5 d-flex align-self-center service mb-5">
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center service mb-5">
                 <img src="images/services/responsive-design.png" alt="">
                 <div class="service-text">
                 <h3>Fully Responsive Design</h3>
@@ -132,7 +130,7 @@
                   since the 1500s, when an unknown printer.</p>
                 </div>
               </div>
-              <div class="col-5 d-flex align-self-center service mb-5">
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center service mb-5">
                 <img src="images/services/working-contact.png" alt="">
                 <div class="service-text">
                 <h3>Working Contact Form</h3>
@@ -141,7 +139,7 @@
                   since the 1500s, when an unknown printer.</p>
                 </div>
               </div>
-              <div class="col-5 d-flex align-self-center service mb-5">
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center service mb-5">
                 <img src="images/services/retina-ready.png" alt="">
                 <div class="service-text">
                 <h3>Retina Ready Icons Here</h3>
@@ -150,7 +148,7 @@
                   since the 1500s, when an unknown printer.</p>
                 </div>
               </div>
-              <div class="col-5 d-flex align-self-center service mb-5">
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center service mb-5">
                 <img src="images/services/friendly-code.png" alt="">
                 <div class="service-text">
                 <h3>Friendly Code</h3>
@@ -159,7 +157,7 @@
                   since the 1500s, when an unknown printer.</p>
                 </div>
               </div>
-              <div class="col-5 d-flex align-self-center service mb-5 service-last">
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center service mb-5 service-last">
                 <img src="images/services/flat-trandy.png" alt="">
                 <div class="service-text">
                 <h3>Flat Trendy Landing Page Design</h3>
@@ -171,12 +169,11 @@
               </div>
           </div>
         </div>
-    </div>
     <div class="about-us">
       <div class="container-fluid">
         <div class="row about-us-wrapper">  
-          <div class="col-6 about-left-part"></div>
-          <div class="col-6 about-right-part">
+          <div class="col-lg-6 col-md-12 col-sm-12 about-left-part"></div>
+          <div class="col-lg-6 col-md-12 col-sm-12 about-right-part">
             <h3>
               About us
             </h3>
@@ -199,8 +196,9 @@
               Lorem Ipsum is simply dummy text of the printing typesetting.
             </p>
           </div>
+        </div>
           <div class="row d-flex justify-content-center prices-cards">
-            <div class="col-3 m-0 p-0">
+            <div class="col-lg-3 col-md-3 col-sm-7 mb-1 p-0">
             <div class="card card-hover">
               <div class="card-body">
                 <div class="card-header">
@@ -223,7 +221,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 m-0 p-0">
+          <div class="col-lg-3 col-md-3 col-sm-7 mb-1 p-0">
             <div class="card card-hover">
               <div class="card-body">
                 <div class="card-header">
@@ -246,7 +244,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 m-0 p-0">
+          <div class="col-lg-3 col-md-3 col-sm-7 mb-1 p-0">
             <div class="card card-hover">
               <div class="card-body">
                 <div class="card-header">
@@ -282,35 +280,35 @@
           <p>Lorem Ipsum is simply dummy Business industry</p>
         </div>
         </div>
-        <div class="row hiw-wrapper">
-            <div class="col-2 hiw-item">
+        <div class="row d-flex flex-wrap justify-content-between hiw-wrapper">
+            <div class="col-lg-2 col-md-12 hiw-item">
               <img src="images/howitworks/step1.png" alt="">
               <h3>STEP 1</h3>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting ind
                 ustry. Lorem Ipsum has been</p>
             </div>
-            <div class="col-1">
+            <div class="col-lg-1">
             <img class="arrows" src="images/howitworks/upper-arrow.png" alt="">
             </div>
-            <div class="col-2 hiw-item">
+            <div class="col-lg-2 col-md-12 hiw-item">
               <img src="images/howitworks/step2.png" alt="">
               <h3>STEP 2</h3>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting ind
                 ustry. Lorem Ipsum has been</p>
             </div>
-            <div class="col-1">
+            <div class="col-lg-1">
             <img class="arrows lower-arrow" src="images/howitworks/lower-arrow.png" alt="">
           </div>
-            <div class="col-2 hiw-item">
+            <div class="col-lg-2 col-md-12 hiw-item">
               <img src="images/howitworks/step3.png" alt="">
               <h3>STEP 3</h3>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting ind
                 ustry. Lorem Ipsum has been</p>
             </div>
-            <div class="col-1">
+            <div class="col-lg-1">
             <img class="arrows" src="images/howitworks/upper-arrow.png" alt="">
           </div>
-            <div class="col-2 hiw-item">
+            <div class="col-lg-2 col-md-12 hiw-item">
               <img src="images/howitworks/step4.png" alt="">
               <h3>STEP 4</h3>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting ind
@@ -334,7 +332,8 @@
         </div>
       </div>
         <div class="row happy-clients-wrapper justify-content-center">
-          <div class="col-5 happy-clients-item d-flex mb-4 me-5 align-self-center">
+          <div class="col-6 happy-clients-item">
+            <div class="review d-flex bg-white">
             <img src="images/happyclients/client1.png" alt="">
             <div class="happy-clients-text">
               <p>&#10076&#10076Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
@@ -345,7 +344,9 @@
               </div>
             </div>
           </div>
-          <div class="col-5 happy-clients-item d-flex mb-4">
+          </div>
+          <div class="col-6 happy-clients-item">
+            <div class="review d-flex bg-white">
             <img src="images/happyclients/client2.png" alt="">
             <div class="happy-clients-text">
               <p>&#10076&#10076Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
@@ -356,7 +357,9 @@
               </div>
             </div>
           </div>
-          <div class="col-5 happy-clients-item d-flex me-5">
+          </div>
+          <div class="col-6 happy-clients-item">
+            <div class="review d-flex bg-white">
             <img src="images/happyclients/client3.png" alt="">
             <div class="happy-clients-text">
               <p>&#10076&#10076Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
@@ -367,7 +370,9 @@
               </div>
             </div>
           </div>
-          <div class="col-5 happy-clients-item d-flex">
+          </div>
+          <div class="col-6 happy-clients-item">
+            <div class="review d-flex bg-white">
             <img src="images/happyclients/client4.png" alt="">
             <div class="happy-clients-text">
               <p>&#10076&#10076Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
@@ -377,6 +382,7 @@
                 <p class="hc-post"> manager</p>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -419,45 +425,76 @@
             </div>
           </div>
           </div>
-          <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light newsletter-navifation">
-              <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse newsletter-navbar" id="navbarNav">
-                  <ul class="navbar-nav newsletter-navbar-wrapper">
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">SERVICE</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">PRICING TABLE</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">HOW IT WORK</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">HAPPY CLIENTS</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">CONTACT US</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
           </div>
         </div>
       </div>
     </div>
 </main>
 
+<footer>
+<div class="footer">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col">
+    <nav class="footer-navifation">
+          <ul class="footer-navbar-wrapper">
+            <li>
+              <a href="#">HOME</a>
+            </li>
+            <li>
+              <a href="#">SERVICE</a>
+            </li>
+            <li>
+              <a href="#">ABOUT US</a>
+            </li>
+            <li>
+              <a href="#">PRICING TABLE</a>
+            </li>
+            <li>
+              <a href="#">HOW IT WORK</a>
+            </li>
+            <li>
+              <a href="#">HAPPY CLIENTS</a>
+            </li>
+            <li>
+              <a href="#">CONTACT US</a>
+            </li>
+          </ul>
+    </nav>
+  </div>
+  </div>
+    <div class="row">
+      <div class="col d-flex justify-content-center align-self-center">
+        <img class="footer-phone-img" src="images/footer/phone.svg" alt="">
+        <p class="footer-phone">+987 9976 999</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col footer-socials">
+      <a href="#">
+        <img src="images/footer/footer-twitter.png" alt="">
+      </a>
+      <a href="#">
+        <img src="images/footer/footer-facebook.png" alt="">
+      </a>
+      <a href="#">
+        <img src="images/footer/footer-google.png" alt="">
+      </a>
+      <a href="#">
+        <img src="images/footer/footer-linkedin.png" alt="">
+      </a>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col footer-copyright">
+        <p>
+          All contents © copyright 2014 Business Theme. All rights reserved Designed by : akhilwebfolio
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 

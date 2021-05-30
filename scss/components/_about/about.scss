@@ -14,18 +14,19 @@
             display: flex;
         }
         .about-right-part {
-            width: 50%;
             background-color: #ffc155;
             color: white;
-            padding: 150px 300px 140px 80px;
+            padding: 140px 0px 140px 80px;
             h3 {
                 font-size: 25px;
                 font-weight: 800;
                 text-transform: uppercase;
+                text-align: left;
             }
             p {
                 font-size: 12px;
                 margin-bottom: 30px;
+                text-align: left;
             }
             .about-btn {
                 color: white;
