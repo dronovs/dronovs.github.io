@@ -557,6 +557,34 @@ body {
   color: #99a9ae;
 }
 
+@media (max-width: 768px) {
+  .happy-clients {
+    padding: 50px 0;
+    margin-bottom: 40px;
+  }
+  .happy-clients .happy-clients-header {
+    margin-bottom: 20px;
+  }
+
+  .happy-clients-item {
+    padding: 15px 10px 0;
+  }
+}
+@media (max-width: 480px) {
+  .happy-clients-item {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .review {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .review img {
+    margin: 0 0 10px 0;
+  }
+}
 .newsletter-header {
   margin-bottom: 30px;
 }
