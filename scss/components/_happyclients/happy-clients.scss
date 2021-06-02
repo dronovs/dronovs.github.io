@@ -1,5 +1,5 @@
 .happy-clients {
-    background-color: #ffc155;
+    background-color: $main-color;
     margin-bottom: 150px;
     padding: 130px 0;
 }
@@ -8,13 +8,10 @@
     margin-bottom: 60px;
     color: white;
     h2 {
-        font-size: 25px;
-        font-weight: 800;
-        text-align: center;
-        text-transform: uppercase;
+        @extend %h2;
     }
     p {
-        font-size: 15px;
+        @extend %top-p;
     }
 }
 .happy-clients-item {
@@ -34,7 +31,7 @@
         display: flex;
         .hc-name {
             text-transform: uppercase;
-            color: #ffc155;
+            color: $main-color;
         }
         .hc-post {
             text-transform: uppercase;

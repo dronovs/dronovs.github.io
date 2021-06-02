@@ -8,6 +8,34 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.input-phone, .input-email, .input-name {
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-position: 15px;
+  padding-left: 40px;
+  border-radius: 2px;
+}
+
+.newsletter-header h2, .happy-clients-header h2, .hiw-header h2, .prices-text h2, .services-header h2 {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.newsletter-header p, .happy-clients-header p, .hiw-header p, .prices-text p, .services-header p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.newsletter-input-email, .newsletter-input-name {
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-position: 15px;
+  padding-left: 40px;
+  border-radius: 2px;
+}
+
 .header-wrapper {
   background-color: white;
 }
@@ -42,6 +70,12 @@ body {
     text-align: center;
   }
 }
+@media (max-width: 576px) {
+  .menu-wrapper {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+}
 .banner {
   background-color: #709dca;
   padding-top: 110px;
@@ -66,36 +100,21 @@ body {
 
 .input-name {
   background-image: url(../images/banner/user.svg);
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-position: 15px;
-  padding-left: 40px;
-  border-radius: 2px;
 }
 
 .input-email {
   background-image: url(../images/banner/email.svg);
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-position: 15px;
-  padding-left: 40px;
-  border-radius: 2px;
 }
 
 .input-phone {
   background-image: url(../images/banner/phone.svg);
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-position: 15px;
-  padding-left: 40px;
-  border-radius: 2px;
 }
 
 .banner-button {
-  border-radius: 2px;
   color: white;
-  padding: 6px 25px;
   background-color: #ffc155;
+  padding: 6px 25px;
+  border-radius: 2px;
 }
 
 .banner-laptop {
@@ -138,7 +157,7 @@ body {
 }
 
 .carousel-indicators .slider-indicator:hover {
-  border-color: #1ca8dd;
+  border-color: #709dca;
 }
 
 @media (max-width: 768px) {
@@ -192,17 +211,6 @@ body {
     bottom: 13%;
   }
 }
-.services-header h2 {
-  font-size: 25px;
-  font-weight: 800;
-  text-align: center;
-  text-transform: uppercase;
-}
-.services-header p {
-  font-size: 15px;
-  text-align: center;
-}
-
 .services .service {
   text-align: left;
 }
@@ -274,10 +282,10 @@ body {
 }
 .about-us .about-us-wrapper .about-right-part .about-btn {
   color: white;
-  border-color: #e7ad48;
   background-color: #ffc155;
   padding: 10px 30px;
   border-radius: 2px;
+  border-color: #e7ad48;
 }
 
 @media (max-width: 768px) {
@@ -315,16 +323,6 @@ body {
 .prices-text {
   margin-bottom: 65px;
 }
-.prices-text h2 {
-  font-size: 25px;
-  font-weight: 800;
-  text-align: center;
-  text-transform: uppercase;
-}
-.prices-text p {
-  text-align: center;
-}
-
 .prices-cards {
   display: flex;
   justify-content: center;
@@ -353,11 +351,11 @@ body {
 }
 .prices-cards .card-hover .card-body .card-price .actual-price .card-dollar {
   font-size: 15px;
-  color: #ffbb42;
+  color: #ffc155;
 }
 .prices-cards .card-hover .card-body .card-price .actual-price p {
   font-size: 25px;
-  color: #ffbb42;
+  color: #ffc155;
   margin: 0;
 }
 .prices-cards .card-hover .card-body .card-price .actual-price .anuitity {
@@ -365,7 +363,7 @@ body {
   font-size: 12px;
 }
 .prices-cards .card-hover .card-body .card-btn {
-  background-color: #ffbb42;
+  background-color: #ffc155;
   border: transparent;
   border-radius: 2px;
 }
@@ -439,13 +437,6 @@ body {
   text-align: center;
   margin-bottom: 80px;
 }
-.hiw-header h2 {
-  font-size: 25px;
-  font-weight: 800;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .hiw-wrapper {
   position: relative;
 }
@@ -480,9 +471,10 @@ body {
 }
 
 .hiw-btn {
-  border-radius: 2px;
   color: white;
+  background-color: #ffc155;
   padding: 10px 25px;
+  border-radius: 2px;
 }
 
 @media (max-width: 768px) {
@@ -524,16 +516,6 @@ body {
   margin-bottom: 60px;
   color: white;
 }
-.happy-clients-header h2 {
-  font-size: 25px;
-  font-weight: 800;
-  text-align: center;
-  text-transform: uppercase;
-}
-.happy-clients-header p {
-  font-size: 15px;
-}
-
 .happy-clients-item {
   padding: 15px 15px 0;
 }
@@ -599,43 +581,23 @@ body {
 .newsletter-header {
   margin-bottom: 30px;
 }
-.newsletter-header h2 {
-  font-size: 25px;
-  font-weight: 800;
-  text-align: center;
-  text-transform: uppercase;
-}
-.newsletter-header p {
-  font-size: 15px;
-  text-align: center;
-}
-
 .newsletter-inputs {
   margin-bottom: 30px;
 }
 
 .newsletter-input-name {
   background-image: url(../images/newsletter/user.svg);
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-position: 15px;
-  padding-left: 40px;
-  border-radius: 2px;
 }
 
 .newsletter-input-email {
   background-image: url(../images/banner/email.svg);
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-position: 15px;
-  padding-left: 40px;
-  border-radius: 2px;
 }
 
 .newsletter-button {
-  border-radius: 2px;
   color: white;
+  background-color: #ffc155;
   padding: 6px 25px;
+  border-radius: 2px;
 }
 
 .newsletter-map-wrapper {
@@ -729,6 +691,10 @@ body {
   }
   .newsletter-map-wrapper img {
     display: none;
+  }
+
+  .newsletter-button {
+    width: 100%;
   }
 
   .adress-circle {

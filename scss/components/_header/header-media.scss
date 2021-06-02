@@ -4,3 +4,10 @@
         text-align: center;
     }
 }
+
+@media (max-width: 576px) {
+    .menu-wrapper {
+        display: flex!important;
+        justify-content: space-between!important;
+    }
+}

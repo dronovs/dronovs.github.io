@@ -1,14 +1,10 @@
 .newsletter-header {
     margin-bottom: 30px;
     h2{
-        font-size: 25px;
-        font-weight: 800;
-        text-align: center;
-        text-transform: uppercase;
+        @extend %h2;
     }
     p {
-        font-size: 15px;
-        text-align: center;
+        @extend %top-p;
     }
 }
 .newsletter-inputs {
@@ -16,24 +12,15 @@
 }
 .newsletter-input-name {
     background-image: url(../images/newsletter/user.svg);
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-position: 15px;
-    padding-left: 40px;
-    border-radius: 2px;
+    @extend %newsletter-inputs;
 }
 .newsletter-input-email {
     background-image: url(../images/banner/email.svg);
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-position: 15px;
-    padding-left: 40px;
-    border-radius: 2px;
+    @extend %newsletter-inputs;
+
 }
 .newsletter-button {
-    border-radius: 2px;
-    color: white;
-    padding: 6px 25px;
+    @include buttons($btn-color: white, $btn-bg: $main-color, $btn-border-radius: 2px, $btn-padding: 6px 25px);
 }
 .newsletter-map-wrapper {
     position: relative;
@@ -58,7 +45,7 @@
     }
     a {
         text-decoration: none;
-        color: #ffc155;
+        color: $main-color;
         font-size: 13px;
     }
     position: absolute;

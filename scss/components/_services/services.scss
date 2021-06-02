@@ -1,14 +1,10 @@
 
 .services-header {
     h2 {
-        font-size: 25px;
-        font-weight: 800;
-        text-align: center;
-        text-transform: uppercase;
+        @extend %h2;
     }
     p {
-        font-size: 15px;
-        text-align: center;
+        @extend %top-p;
     }
 
 }

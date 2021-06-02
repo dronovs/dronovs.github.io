@@ -14,7 +14,7 @@
             display: flex;
         }
         .about-right-part {
-            background-color: #ffc155;
+            background-color: $main-color;
             color: white;
             padding: 140px 0px 140px 80px;
             h3 {
@@ -29,11 +29,8 @@
                 text-align: left;
             }
             .about-btn {
-                color: white;
+                @include buttons($btn-color: white, $btn-bg: $main-color, $btn-border-radius: 2px, $btn-padding: 10px 30px);
                 border-color: #e7ad48;
-                background-color: #ffc155;
-                padding: 10px 30px;
-                border-radius: 2px;
             }
         }
     }
