@@ -39,6 +39,13 @@
         bottom: 2%;
     }
 }
+
+@media (max-width:390px) {
+    .laptop-slides {
+        max-width: 268px;
+        bottom: 8%;
+    }
+}    
 @media (max-width:320px) {
     .banner {
         margin-bottom: 20px;
