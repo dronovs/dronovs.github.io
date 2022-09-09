@@ -1,0 +1,74 @@
+@media (max-width:992px) {
+    .adress-circle {
+        left: 36%;
+    }
+}
+
+@media (max-width:768px) {
+    .adress-circle {
+        max-width: 220px;
+        max-height: 220px;
+    }
+}
+
+@media (max-width:576px) {
+    .newsletter-inputs {
+        margin-left: 0;
+    }
+    .adress-circle {
+        max-width: 160px;
+        max-height: 160px;
+        bottom: 49%;
+        left: 37%;
+        h5 {
+            font-size: 11px;
+        }
+        p {
+            font-size: 10px;
+        }
+        a {
+            font-size: 8px;
+        }
+    }
+}
+
+@media (max-width:480px) {
+    .newsletter-map-wrapper {
+        padding: 90px 0px;
+        margin-bottom: 20px;
+        img {
+            display: none;
+        }
+    }
+    .newsletter-button {
+        width: 100%;
+    }
+    .adress-circle {
+        max-width: 475px;
+        border-radius: 0;
+        max-height: 100%;
+        left: 0;
+        bottom: 0;
+        h5 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 12px;
+        }
+        a {
+            font-size: 11px;
+        }
+        .adress-circle-arrow {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .newsletter-header {
+        margin-bottom: 10px;
+    }
+    .newsletter-button {
+        width: 100%;
+    }
+}

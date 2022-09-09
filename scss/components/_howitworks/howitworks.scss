@@ -1,0 +1,50 @@
+.how-it-works {
+    padding: 100px 0;
+    margin-bottom: 80px;
+}
+.hiw-header {
+    text-align: center;
+    margin-bottom: 80px;
+    h2 {
+        @extend %h2;
+    }
+    p {
+        @extend %top-p;
+    }
+}
+.hiw-wrapper {
+    position: relative;
+    .arrows {
+        position: absolute;
+        width: 12%;
+        transform: translateX(-25%);
+    }
+    .lower-arrow {
+        top: 65px;
+        transform: translateX(-30%);
+    }
+}
+
+.hiw-item {
+    text-align: center;
+    img {
+        height: 50px;
+        width: 55px;
+        margin-bottom: 80px;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 12px;
+        color: #7b7b7b;
+        margin: 0 0 80px 0;
+    }
+    
+}
+.hiw-btn {
+    @include buttons($btn-color: white, $btn-bg: $main-color, $btn-border-radius: 2px, $btn-padding: 10px 25px);
+}

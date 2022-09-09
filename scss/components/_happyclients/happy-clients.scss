@@ -1,0 +1,41 @@
+.happy-clients {
+    background-color: $main-color;
+    margin-bottom: 150px;
+    padding: 130px 0;
+}
+.happy-clients-header {
+    text-align: center;
+    margin-bottom: 60px;
+    color: white;
+    h2 {
+        @extend %h2;
+    }
+    p {
+        @extend %top-p;
+    }
+}
+.happy-clients-item {
+    padding: 15px 15px 0;
+    img {
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+    }
+}
+.review {
+    padding: 40px 20px;
+}
+.happy-clients-text {
+    font-size: 12px;
+    .happy-clients-user {
+        display: flex;
+        .hc-name {
+            text-transform: uppercase;
+            color: $main-color;
+        }
+        .hc-post {
+            text-transform: uppercase;
+            color: #99a9ae;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@media (max-width:768px) {
+    .about-us .about-us-wrapper .about-right-part {
+        padding: 70px 0 70px 0;
+        text-align: center;
+        h3 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .about-us .about-us-wrapper .about-right-part {
+        padding: 50px 5px 50px 5px;
+    }
+}
+
+@media (max-width:480px) {
+    .about-us .about-us-wrapper .about-right-part {
+        padding: 40px 5px 40px 5px;
+    }
+}
+
+@media (max-width:320px) {
+    .about-us .about-us-wrapper .about-right-part {
+        padding: 20px 5px 20px 5px;
+    }
+}

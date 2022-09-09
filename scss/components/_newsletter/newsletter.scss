@@ -1,0 +1,74 @@
+.newsletter-header {
+    margin-bottom: 30px;
+    h2{
+        @extend %h2;
+    }
+    p {
+        @extend %top-p;
+    }
+}
+.newsletter-inputs {
+    margin-bottom: 30px;
+}
+.newsletter-input-name {
+    background-image: url(../images/newsletter/user.svg);
+    @extend %newsletter-inputs;
+}
+.newsletter-input-email {
+    background-image: url(../images/banner/email.svg);
+    @extend %newsletter-inputs;
+
+}
+.newsletter-button {
+    @include buttons($btn-color: white, $btn-bg: $main-color, $btn-border-radius: 2px, $btn-padding: 6px 25px);
+}
+.newsletter-map-wrapper {
+    position: relative;
+    border-bottom: 1px solid #e3e7ec;
+    margin-bottom: 60px;
+    padding: 0 0 40px 0;
+    img {
+        width: 100%;
+    }
+}
+.adress-circle {
+    h5 {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    p {
+        color: #808b8f;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: $main-color;
+        font-size: 13px;
+    }
+    position: absolute;
+    background-color: #394b50;
+    left: 38%;
+    bottom: 47%;
+    border-radius: 50%;
+    max-width: 280px;
+    max-height: 280px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .adress-circle-arrow {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 25px solid #394b50;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        right: 43%;
+        bottom: -8%;
+    }
+}

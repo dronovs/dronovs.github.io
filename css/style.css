@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+.additional-wrapper, .warming-drinks-wrapper, .coffee-drinks-wrapper, .classic-drinks-wrapper {
+  border: 4px solid #748DA6;
+  border-radius: 5px;
+  margin-bottom: 10px !important;
+  color: #354259;
+}
+
+.additional, .warming-drinks, .coffee-drinks, .classic-drinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.additional-names, .warming-drinks-names, .coffee-drinks-names, .classic-drinks-names {
+  width: 50%;
+  padding: 0 5px;
+  letter-spacing: 5px;
+}
+
+.additional-prices, .warming-drinks-prices, .coffee-drinks-prices, .classic-drinks-prices {
+  width: 47%;
+  padding: 0 5px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  padding: 0 5px;
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  font-size: inherit;
+  background-color: #F0EBE3;
+}
+
+.container {
+  width: 100%;
+  max-width: 576px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 5px;
+  animation-name: skewText;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.h2titles {
+  animation-name: skewTextAnother;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.main-logo-wrapper {
+  border-bottom: 1px dashed black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main-logo {
+  max-width: 65px;
+  max-height: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+@keyframes fontSizing {
+  from {
+    font-size: 10px;
+  }
+  to {
+    font-size: inherit;
+  }
+}
+@keyframes skewText {
+  0% {
+    transform: skew(0deg);
+  }
+  25% {
+    transform: skew(-25deg);
+  }
+  50% {
+    transform: skew(0deg);
+  }
+  75% {
+    transform: skew(25deg);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+@keyframes skewTextAnother {
+  0% {
+    transform: skew(0deg);
+  }
+  25% {
+    transform: skew(25deg);
+  }
+  50% {
+    transform: skew(0deg);
+  }
+  75% {
+    transform: skew(-25deg);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+.classic-drinks-wrapper {
+  background-color: #9ED2C6;
+}
+
+.classic-drinks-names {
+  animation-name: fontSizing;
+  animation-duration: 1s;
+}
+
+.classic-drinks-prices {
+  animation-name: fontSizing;
+  animation-duration: 1s;
+}
+
+.coffee-drinks-wrapper {
+  background-color: #E9DAC1;
+}
+
+.coffee-drinks-names {
+  animation-name: fontSizing;
+  animation-duration: 1s;
+}
+
+.coffee-drinks-prices {
+  animation-name: fontSizing;
+  animation-duration: 1s;
+}
+
+.warming-drinks-wrapper {
+  background-color: #F29393;
+}
+
+.warming-drinks-names {
+  animation-name: fontSizing;
+  animation-duration: 1s;
+}
+
+.warming-drinks-prices {
+  letter-spacing: 10px;
+  animation-name: fontSizing;
+  animation-duration: 1s;
+}
+
+.additional-wrapper {
+  background-color: #CBA0AE;
+}
+
+.additional-names {
+  animation-name: fontSizing;
+  animation-duration: 1s;
+}
+
+.additional-prices {
+  letter-spacing: 10px;
+  animation-name: fontSizing;
+  animation-duration: 1s;
+}
+
+/*# sourceMappingURL=style.css.map */

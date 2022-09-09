@@ -1,0 +1,31 @@
+@media (max-width:768px) {
+    .how-it-works {
+        padding: 50px 0;
+        margin-bottom: 30px;
+    }
+    .hiw-header {
+        margin-bottom: 20px;
+    }
+    .hiw-wrapper {
+        .arrows {
+            display: none;
+        }
+        .hiw-item {
+            width: 100%;
+            img {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .how-it-works {
+        padding: 10px 0;
+        .hiw-item {
+            p {
+                margin: 0 0 20px 0;
+            }
+        }
+    }
+}
